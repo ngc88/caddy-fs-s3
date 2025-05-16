@@ -55,7 +55,7 @@ func (m *CaddyFsS3) Build(
 	return dag.Xcaddy(dagger.XcaddyOpts{
 		GoVersion: goVersion,
 	}).Build().
-		Plugin("github.com/sagikazarmark/caddy-fs-s3", dagger.XcaddyBuildPluginOpts{Replacement: m.Source}).
+		Plugin("github.com/ngc88/caddy-fs-s3", dagger.XcaddyBuildPluginOpts{Replacement: m.Source}).
 		Container()
 }
 

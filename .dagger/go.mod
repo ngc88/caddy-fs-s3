@@ -1,4 +1,4 @@
-module github.com/sagikazarmark/caddy-fs-s3/.dagger
+module github.com/ngc88/caddy-fs-s3/.dagger
 
 go 1.23.6
 

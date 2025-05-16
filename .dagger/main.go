@@ -5,7 +5,7 @@ import (
 
 	"github.com/sagikazarmark/dagx/pipeline"
 
-	"github.com/sagikazarmark/caddy-fs-s3/.dagger/internal/dagger"
+	"github.com/ngc88/caddy-fs-s3/.dagger/internal/dagger"
 )
 
 type CaddyFsS3 struct {

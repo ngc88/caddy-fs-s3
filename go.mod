@@ -1,4 +1,4 @@
-module github.com/sagikazarmark/caddy-fs-s3
+module github.com/ngc88/caddy-fs-s3
 
 go 1.23.8
 
